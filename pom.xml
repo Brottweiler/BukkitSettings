@@ -43,8 +43,8 @@
         </dependency>
         <dependency>
             <groupId>com.github.OvercastNetwork</groupId>
-            <artifactId>Settings</artifactId>
-            <version>1.0</version>
+            <artifactId>settings</artifactId>
+            <version>master-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.bukkit</groupId>

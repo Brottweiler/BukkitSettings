@@ -1,4 +1,4 @@
-BukkitSettings
+BukkitSettings [![](https://jitpack.io/v/OvercastNetwork/BukkitSettings.svg)](https://jitpack.io/#OvercastNetwork/BukkitSettings)
 ==============
 
 Plugin for handling a player's settings
@@ -32,3 +32,21 @@ permission.
 
 Allows the user to set the value of a setting.  Inherits value from parent
 permission.
+
+Distribution
+============
+
+```xml
+<repository>
+  <id>jitpack.io</id>
+  <url>https://jitpack.io</url>
+</repository>
+```
+
+```xml
+<dependency>
+    <groupId>com.github.OvercastNetwork</groupId>
+    <artifactId>bukkit-settings</artifactId>
+    <version>master-SNAPSHOT</version>
+</dependency>
+```
