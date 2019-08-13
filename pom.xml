@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.anxuiz</groupId>
     <artifactId>bukkit-settings</artifactId>
-    <version>1.11-SNAPSHOT</version>
+    <version>1.9-SNAPSHOT</version>
     <name>BukkitSettings</name>
     <description>Bukkit plugin and API for controlling player settings.</description>
     <licenses>
@@ -20,14 +20,25 @@
 
     <repositories>
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
+            <id>pa-snapshots</id>
+            <url>https://repo.extension.ws/content/repositories/snapshots</url>
         </repository>
         <repository>
-            <id>spigotmc-public</id>
-            <url>https://hub.spigotmc.org/nexus/content/groups/public</url>
+            <id>pa-releases</id>
+            <url>https://repo.extension.ws/content/repositories/releases</url>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>pa-deployment</id>
+            <url>https://repo.extension.ws/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>pa-deployment</id>
+            <url>https://repo.extension.ws/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
@@ -42,14 +53,14 @@
             <version>14.0.1</version>
         </dependency>
         <dependency>
-            <groupId>com.github.OvercastNetwork</groupId>
+            <groupId>me.anxuiz</groupId>
             <artifactId>settings</artifactId>
-            <version>master-SNAPSHOT</version>
+            <version>1.9-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>1.11.2-R0.1-SNAPSHOT</version>
+            <groupId>tc.oc</groupId>
+            <artifactId>sportbukkit-api</artifactId>
+            <version>1.11.1-R0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
     <build>
